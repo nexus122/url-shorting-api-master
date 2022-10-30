@@ -1,0 +1,20 @@
+@import "../../shared/colors";
+article{
+    margin-top: 1em;
+    background-color: #3a3053;
+    background-image: url('../../../assets/images/bg-boost-desktop.svg');
+    background-size: cover;
+    display: flex;
+    gap: 1em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    h1{
+        font-size: 3em;
+    }
+}

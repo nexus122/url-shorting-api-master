@@ -1,0 +1,28 @@
+@import "../../shared/colors";
+main{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    article{
+        padding: 1em;
+        width: 35%;
+        h1{
+            font-size: 3em;
+            line-height: 1.1em;
+            margin: 0;
+            color: $neutral-very-dark-violet;
+        }
+        p{
+            color: $neutral-gray;
+        }
+        button{
+            padding: 1em;
+            font-size: 18px;
+        }
+    }
+    .illustration{
+        img{
+            width: 100%;
+        }
+    }
+}

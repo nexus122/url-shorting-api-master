@@ -1,0 +1,5 @@
+<div class="page">
+  <app-hero></app-hero>
+  <app-short-link (links)="reciveValue($event)"></app-short-link>
+  <app-results [links]="links"></app-results>
+</div>

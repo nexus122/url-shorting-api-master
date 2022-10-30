@@ -1,0 +1,26 @@
+@import "../../shared/colors";
+section{
+    margin-top: 1em;
+    border-radius: 2em;
+    background-color: #3a3053;
+    background-image: url('../../../assets/images/bg-boost-desktop.svg');
+    background-size: cover;
+    display: flex;
+    gap: 1em;
+    padding: 4em;
+    div{        
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        svg{
+            position: absolute;            
+        }
+        input{
+            font-size: 18px;
+            padding: 1em;
+            border-radius: 0.4em;
+            border: 0;
+            width: 85%;
+        }
+    }
+}

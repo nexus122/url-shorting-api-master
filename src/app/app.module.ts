@@ -9,14 +9,30 @@ import { AppComponent } from './app.component';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
-import { LenguajeSelectorComponent } from './components/lenguaje-selector/lenguaje-selector.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { ShortLinkComponent } from './components/short-link/short-link.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PageComponent } from './components/page/page.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
-  declarations: [AppComponent, LenguajeSelectorComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HeroComponent,
+    ShortLinkComponent,
+    FooterComponent,
+    PageComponent,
+    ResultsComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
